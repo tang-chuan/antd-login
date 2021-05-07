@@ -1,0 +1,37 @@
+.rootBoxBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.headererer {
+  width: 100%;
+  height: 44px;
+  flex-shrink: 0;
+  background-color: pink;
+}
+.boxbox {
+  flex: 1;
+  display: flex;
+  
+}
+.tabBarBig {
+  width: 120px;
+  background-color: seagreen;
+}
+.boxRigeht {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.bodyerer {
+  flex: 1;
+  flex-basis: 0;
+  overflow: scroll;
+}
+.foot {
+  width: 100%;
+  height: 88px;
+  flex-shrink: 0;
+  background-color: royalblue;
+}
